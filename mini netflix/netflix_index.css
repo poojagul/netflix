@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.back-img{
+    height: 750px;
+    border-bottom: 8px solid #222;
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.7),rgba(10, 10, 10, 0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+}
+/* drondown */
+.dd{ 
+    border-radius: 0;
+}
+
+.dd:hover{
+    background-color: black;
+    color: white;
+}
+.get-started-btn{
+    background-color: #fa1924;
+    font-size: 1.6rem;
+    border: none;
+    
+}
+.sign-in-btn{
+    background-color: #e50914;
+}
+.wallpaper-content{
+    max-width: 904px;
+   padding-top: 120px;
+}
+.img-title{
+    max-width: 640px; 
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.1;
+    margin-top: 120px;
+    color: white;
+}
+.img-subtitle{
+    font-size: 30px;
+    margin: 1rem auto;
+    color: white;
+    padding-top: 10px;
+}
+.imge-subtitle{
+    font-size: 20px;
+    margin: 1rem auto;
+    color: white;
+}
+.email-field{
+    max-width: 700px;
+}
+/* Container Back */
+.container-back{
+    background-color: black;
+    
+}
+.section1Center{
+    margin: 0 auto;
+}
+.section2Center{
+    margin: 0 auto;
+}
+.section3Center{
+    margin: 0 auto;
+}
+.section4Center{
+    margin: 0 auto;
+}
+.main-title{
+    font-weight: 800;
+    font-size: large;
+}
+.main-row{
+    color: white;
+}
+
+.main-col-text{
+    max-width: 520px;
+    text-align: center;
+}
+.main-title{
+    font-weight: 600;
+}
+.faq-questions{
+    max-width: 900px;
+    
+    color: white;
+}
+.faq-1{
+    font-size: 30px;
+    color: white;
+}
+.faq-btn{
+    font-size: 30px;
+    color: white;
+}
+.footer{
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+}
+.footer:hover{
+    color: white;
+    opacity: 0.5;
+    text-decoration: underline;
+}
+.dropdown{
+    color: white;
+    opacity: 0.8;
+}
+.container-back.d-flex.flex-coloumn {
+    border-bottom: 8px solid #222;
+}
+.container-back-que.d-flex.flex-coloumn{
+    background-color: black;
+}
